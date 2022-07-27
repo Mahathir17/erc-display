@@ -1,0 +1,58 @@
+.text-align-justify{
+    text-align: justify;
+}
+.backgroundImg{
+    background-image: url(images/dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.backgroundImg:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hover-class{
+    transition: 0.2s;
+}
+.hover-class:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.why{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.team-card1{
+    border: 1px solid black;
+    padding: 30px 10px;
+    border-radius: 20px;
+    background-image: url(./images/team1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.team-card2{
+    border: 1px solid black;
+    padding: 30px 10px;
+    border-radius: 20px;
+    background-image: url(./images/team2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.team-card3{
+    border: 1px solid black;
+    padding: 30px 10px;
+    border-radius: 20px;
+    background-image: url(./images/team3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.font-awesome-size{
+    font-size: 50px;
+}
